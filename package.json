@@ -1,0 +1,29 @@
+{
+  "name": "food",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "stanzheng",
+  "author": {
+    "name": "Stanley Zheng",
+    "email": "stanzheng+npm@stanzheng.com",
+    "url": "stanzheng"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.0"
+  }
+}
