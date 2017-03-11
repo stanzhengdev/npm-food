@@ -22,7 +22,9 @@
     "data/emoji.json"
   ],
   "keywords": [
-    "emoji,unicode,strings"
+    "emoji",
+    "unicode",
+    "cli"
   ],
   "dependencies": {
     "fuse.js": "^2.6.2",
