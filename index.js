@@ -1,7 +1,8 @@
 'use strict';
+var path = require('path');
 var Fuse = require('fuse.js');
-var emojis = require(__dirname + '/data/emoji.json');
 
+var emojis = require(path.join(__dirname, 'data', 'emoji.json')); // eslint-disable-line import/no-dynamic-require
 module.exports = {
   emojis: emojis,
   search: search
