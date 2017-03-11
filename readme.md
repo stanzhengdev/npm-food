@@ -9,6 +9,9 @@
 $ npm install --save food
 ```
 
+
+[![asciicast](https://asciinema.org/a/4z508ketoj69ct2k30bywimvh.png)](https://asciinema.org/a/4z508ketoj69ct2k30bywimvh)
+
 ## CLI
 ```
 $ npm install --global food
