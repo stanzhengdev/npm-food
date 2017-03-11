@@ -7,9 +7,6 @@ const cli = meow(`
 	Usage
 	  $ food [input]
 
-	Options
-	  --options  Keywords  [Default: description]
-
 	Examples
 	  $ food search unicorns
     [{
