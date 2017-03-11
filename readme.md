@@ -9,6 +9,31 @@
 $ npm install --save food
 ```
 
+## CLI
+```
+$ npm install --global food
+```
+
+```
+$ food --help
+  unicode characters are tasty food for programs! feed your apps some emojis
+
+  Usage
+    $ food [input]
+
+  Options
+    --options  Keywords  [Default: description]
+
+  Examples
+    $ food search uncirons
+    [{
+        "unicode": "1F984",
+        "display": "🦄",
+        "description": "unicorn face",
+        "category": "animal-mammal"
+    }...
+```
+
 
 ## Usage
 

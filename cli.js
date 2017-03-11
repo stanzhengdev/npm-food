@@ -11,8 +11,13 @@ const cli = meow(`
 	  --options  Keywords  [Default: description]
 
 	Examples
-	  $ food search uncirons
-	  unicorns & rainbows
+	  $ food search unicorns
+    [{
+        "unicode": "1F984",
+        "display": "🦄",
+        "description": "unicorn face",
+        "category": "animal-mammal"
+    }....
 `);
 
 console.log(food.search(cli.input[0] || 'unicorns'));
