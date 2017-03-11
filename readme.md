@@ -1,7 +1,7 @@
 # Food [![Build Status](https://travis-ci.org/stanzhengdev/npm-food.svg?branch=master)](https://travis-ci.org/stanzhengdev/npm-food)
 
 >
-
+Unicode characters are tasty food for programs! feed your apps some emojis. Asciinema [here to see in action](https://asciinema.org/a/4z508ketoj69ct2k30bywimvh).
 
 ## Install
 
@@ -9,8 +9,6 @@
 $ npm install --save food
 ```
 
-
-[![asciicast](https://asciinema.org/a/4z508ketoj69ct2k30bywimvh.png)](https://asciinema.org/a/4z508ketoj69ct2k30bywimvh)
 
 ## CLI
 ```
