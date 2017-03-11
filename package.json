@@ -1,6 +1,6 @@
 {
   "name": "food",
-  "version": "0.3.5-1",
+  "version": "0.3.5",
   "description": "unicode characters are tasty food for programs! feed your apps some emojis",
   "license": "MIT",
   "repository": "stanzheng",
