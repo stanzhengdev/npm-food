@@ -9,6 +9,7 @@
     "email": "stanzheng+npm@stanzheng.com",
     "url": "stanzheng"
   },
+  "bin": "cli.js",
   "engines": {
     "node": ">=4"
   },
@@ -16,13 +17,15 @@
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "keywords": [
     "emoji,unicode,strings"
   ],
   "dependencies": {
-    "fuse.js": "^2.6.2"
+    "fuse.js": "^2.6.2",
+    "meow": "^3.7.0"
   },
   "devDependencies": {
     "ava": "^0.17.0",
