@@ -15,7 +15,7 @@ $ npm install --save food
 ```js
 const food = require('food');
 
-food('unicorns');
+food.search('unicorns');
 /*=>
     [{
         "unicode": "1F984",
@@ -29,7 +29,28 @@ food('unicorns');
 
 ## API
 
-### food(input, [options])
+### food.emojis
+Type: `array<object>`
+
+Array of emojis with the following properties
+
+##### unicode
+
+Unicode representation.
+
+##### display
+
+The visual representation.
+
+##### description
+
+Description of the emoji.
+
+##### category
+
+The grouping of the emoji.
+
+### food.search(input, [options])
 
 #### input
 
