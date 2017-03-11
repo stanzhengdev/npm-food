@@ -16,7 +16,14 @@ $ npm install --save food
 const food = require('food');
 
 food('unicorns');
-//=> 'unicorns & rainbows'
+/*=>
+    [{
+        "unicode": "1F984",
+        "display": "🦄",
+        "description": "unicorn face",
+        "category": "animal-mammal"
+    } ...
+*/
 ```
 
 
@@ -28,16 +35,16 @@ food('unicorns');
 
 Type: `string`
 
-Lorem ipsum.
+search term passed in for fuzzy searching.
 
 #### options
+Note** this project uses fuse for searching so see (https://github.com/krisk/fuse#options)[https://github.com/krisk/fuse#options] for full options.
+##### key
 
-##### foo
-
-Type: `boolean`<br>
+Type: `array<string>`<br>
 Default: `false`
 
-Lorem ipsum.
+A list of nested json parameters for the parser to look for.
 
 
 ## License
