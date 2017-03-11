@@ -59,7 +59,7 @@ Type: `string`
 search term passed in for fuzzy searching.
 
 #### options
-Note** this project uses fuse for searching so see (https://github.com/krisk/fuse#options)[https://github.com/krisk/fuse#options] for full options.
+Note** this project uses fuse for searching so see [krisk/fuse](https://github.com/krisk/fuse#options) for full options.
 ##### key
 
 Type: `array<string>`<br>

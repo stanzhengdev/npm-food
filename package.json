@@ -1,7 +1,7 @@
 {
   "name": "food",
-  "version": "0.2.0",
-  "description": "",
+  "version": "0.2.2",
+  "description": "unicode characters are tasty food for programs! feed your apps some emojis",
   "license": "MIT",
   "repository": "stanzheng",
   "author": {
@@ -19,7 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "emoji,unicode,strings"
   ],
   "dependencies": {
     "fuse.js": "^2.6.2"
