@@ -9,7 +9,8 @@ module.exports = {
 
 function search(input, opts) {
 	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
+		// throw new TypeError(`Expected a string, got ${typeof input}`);
+		return `Expected a string, got ${typeof input}...`;
 	}
 
 	opts = opts || {
