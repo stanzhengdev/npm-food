@@ -1,4 +1,4 @@
-# Food [![Build Status](https://travis-ci.org/stanzhengdev/npm-food.svg?branch=master)](https://travis-ci.org/stanzhengdev/Food)
+# Food [![Build Status](https://travis-ci.org/stanzhengdev/npm-food.svg?branch=master)](https://travis-ci.org/stanzhengdev/npm-food)
 
 >
 
