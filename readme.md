@@ -27,7 +27,7 @@ $ food --help
     --options  Keywords  [Default: description]
 
   Examples
-    $ food search uncirons
+    $ food search unicorns
     [{
         "unicode": "1F984",
         "display": "🦄",
