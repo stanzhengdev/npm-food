@@ -1,6 +1,6 @@
 'use strict';
 var Fuse = require('fuse.js');
-var emojis = require('./data/emoji.json');
+var emojis = require(__dirname + '/data/emoji.json');
 
 module.exports = {
   emojis: emojis,
