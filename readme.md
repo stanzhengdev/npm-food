@@ -3,6 +3,7 @@
 >
 Unicode characters are tasty food for programs! feed your apps some emojis. Asciinema [here to see in action](https://asciinema.org/a/4z508ketoj69ct2k30bywimvh).
 Inspired to make working with unicode and emojis easier by this [article](http://blog.jonnew.com/posts/poo-dot-length-equals-two).
+
 ## Install
 
 ```
