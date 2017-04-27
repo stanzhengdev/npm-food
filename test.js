@@ -14,3 +14,7 @@ test('default return 5', t => {
 test('numeric pass in ', t => {
   t.is(fn.search(123), 'Expected a string, got number.');
 });
+
+test('Test Display ', t => {
+  t.is(fn.search('cake')[1].display, '🍥');
+});
