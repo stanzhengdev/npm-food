@@ -7,6 +7,10 @@ test('find description', t => {
   t.is(fn.search('palette')[0].description, 'artist palette');
 });
 
+test('default return 5', t => {
+  t.is(fn.search('switzerland').length, 5);
+});
+
 test('numeric pass in ', t => {
   t.is(fn.search(123), 'Expected a string, got number.');
 });
